@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvNazwaWycieczkiDialogP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nazwa_wycieczki" />
+
+    <EditText
+        android:id="@+id/etNazwaWycieczkiDialogP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvDataRozpoczeciaDialogP"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="dataRozpoczecia" />
+
+        <DatePicker
+            android:id="@+id/dpDataRozpoczeciaDialogP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:calendarViewShown="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="vertical"
+        android:paddingRight="0dp" >
+
+        <TextView
+            android:id="@+id/tvDataZakonczeniaDialogP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="data_zakonczenia" />
+
+        <DatePicker
+            android:id="@+id/dpDataZakonczeniaDialogP"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:calendarViewShown="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/bAnulujDialogP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Anuluj" />
+
+        <Button
+            android:id="@+id/bOkDialogP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/OK" />
+    </LinearLayout>
+
+</LinearLayout>

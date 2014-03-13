@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/DodajAlbum" android:title="@string/dodajAlbum" android:orderInCategory="1"></item>
+    <item android:id="@+id/DodajZdjecie" android:title="@string/dodajZdjecie" android:orderInCategory="2"></item>
+    <item android:id="@+id/UsunZdjecie" android:title="@string/usunZdjecie" android:orderInCategory="3"></item>
+</menu>

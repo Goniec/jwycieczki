@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+     >
+
+    <TextView
+        android:id="@+id/tvWylogujO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wyloguj" 
+        android:layout_gravity="center"
+        android:onClick="onClickWyloguj"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.33"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageButton
+                    android:id="@+id/ibMapaO"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/Mapa"
+                    android:onClick="onClick_Activity_Mapa"
+                    android:src="@drawable/ic_action_map" />
+
+                <ImageButton
+                    android:id="@+id/ibProfilO"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/Profil"
+                    android:onClick="onClick_Activity_Profil"
+                    android:src="@drawable/ic_action_person" />
+
+                <ImageButton
+                    android:id="@+id/ibGaleriaO"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/Galeria"
+                    android:onClick="onClick_Activity_Galeria"
+                    android:src="@drawable/ic_action_picture" />
+
+                <ImageButton
+                    android:id="@+id/ibUstawieniaO"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="Wycieczki"
+                    android:onClick="onClick_Activity_Ustawienia"
+                    android:src="@drawable/ic_action_airplane_mode_off" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/etOdbiorcyO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10" />
+
+            <EditText
+                android:id="@+id/etWiadomoscO"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.38"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/ibZdjecieO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClickZdjecie"
+                android:src="@drawable/ic_action_camera" />
+
+            <ImageButton
+                android:id="@+id/ibWyslijO"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:contentDescription="Wyslij"
+                android:onClick="onClickWyslij"
+                android:src="@drawable/ic_action_email" />
+
+            <ImageButton
+                android:id="@+id/bPopupMenuO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="popup"
+                android:src="@drawable/ic_action_view_as_list" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+      <!--  <ListView
+            android:id="@+id/lvZakladkiO"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </ListView>
+      -->
+
+        <ListView
+            android:id="@+id/lvWycieczkiO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </ListView> 
+
+        <ExpandableListView
+            android:id="@+id/elvWiadomosciO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </ExpandableListView>
+
+    </LinearLayout>
+
+</LinearLayout>

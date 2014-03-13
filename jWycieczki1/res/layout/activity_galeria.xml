@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentTop="true"
+          android:gravity="center|left"
+          android:orientation="vertical" >
+
+          <TextView
+              android:id="@+id/tvTrescOelv"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="0.65"
+              android:gravity="center"
+              android:text="Albumy"
+              android:textSize="20sp" />
+
+          <GridView
+              android:id="@+id/gvAlbumy"
+              android:layout_width="wrap_content"
+              android:layout_height="120dp"
+              android:layout_margin="5dp"
+              android:layout_weight="5.23"
+              android:columnWidth="75dp"
+              android:drawSelectorOnTop="true"
+              android:gravity="center"
+              android:numColumns="auto_fit"
+              android:stretchMode="columnWidth" >
+
+          </GridView>
+
+          <TextView
+              android:id="@+id/tvdataOelv"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:gravity="center"
+              android:text="Zdjęcia"
+              android:textSize="20sp" />
+
+          <GridView
+              android:id="@+id/gvZdjecia"
+              android:layout_width="wrap_content"
+              android:layout_height="184dp"
+              android:layout_margin="5dp"
+              android:layout_weight="17.07"
+              android:columnWidth="75dp"
+              android:drawSelectorOnTop="true"
+              android:gravity="center"
+              android:numColumns="auto_fit"
+              android:stretchMode="columnWidth" >
+
+          </GridView>
+      </LinearLayout>
+
+      <ImageView
+          android:id="@+id/ivDuzeZdjecie"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true"
+          android:visibility="gone" />
+
+</RelativeLayout>

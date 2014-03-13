@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tvDanePlv"
+        android:layout_width="128dp"
+        android:layout_height="67dp"
+        android:layout_weight="0.81" />
+
+    <ImageView
+        android:id="@+id/ivRangaPlv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/bAwansujPlv"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="76dp"
+                android:layout_height="32dp"
+                android:text="@string/awansuj" />
+
+            <Button
+                android:id="@+id/bDegradujPlv"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="76dp"
+                android:layout_height="32dp"
+                android:text="@string/degraduj" />
+
+            <Button
+                android:id="@+id/bDodajPlv"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="76dp"
+                android:layout_height="32dp"
+                android:text="dodaj" />
+
+            <Button
+                android:id="@+id/bUsunPlv"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:text="@string/usun" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

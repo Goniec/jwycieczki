@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">jWycieczki</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="jWycieczki">jWycieczki</string>
+    <string name="login">login</string>
+    <string name="Zaloguj">Zaloguj</string>
+    <string name="Rejestracja">Rejestracja</string>
+    <string name="haslo">haslo</string>
+    <string name="Profil">Profil</string>
+    <string name="Galeria">Galeria</string>
+    <string name="Ustawienia">Ustawienia</string>
+    <string name="Mapa">Mapa</string>
+    <string name="Dodaj_zdjecie">Dodaj zdjęcie</string>
+    <string name="Wyslij">Wyślij</string>
+    <string name="Haslo">Hasło</string>
+    <string name="email">email</string>
+    <string name="OK">OK</string>
+    <string name="Anuluj">Anuluj</string>
+    <string name="Akceptuje">Akceptuję</string>
+    <string name="Regulamin">Regulamin</string>
+    <string name="Powrot">Powrót</string>
+    <string name="Odblokuj">Odblokuj</string>
+    <string name="Zmien_haslo">Zmień hasło</string>
+    <string name="Zaloz_grupe">Załóż grupę</string>
+    <string name="Organizuj_wycieczke">Organizuj wycieczkę</string>
+    <string name="Zakoncz">Zakończ</string>
+    <string name="Wybierz_album">Wybierz album</string>
+    <string name="Uzupelnij_pola">Prosze uzupelnic wszystkie pola</string>
+    <string name="Akceptacja_regulaminu">Akceptacja regulaminu jest konieczna do zarejestrowania konta</string>
+    <string name="Haslo_krotkie">haslo za krótkie</string>
+    <string name="Hasla_rozne">wprowadzono różne hasla</string>
+    <string name="Nazwa_niedozwolona">nazwa użytkownika niedozwolona</string>
+    <string name="Email_niedozwolony">adres e-mail niedozwolony</string>
+    <string name="Anulowano">Anulowano</string>
+    <string name="dodajAlbum">Dodaj album</string>
+    <string name="dodajZdjecie">Dodaj zdjęcie</string>
+    <string name="usunZdjecie">Usun zdjęcie</string>
+    <string name="PodajNick">podaj login:</string>
+    <string name="PodajEmail">podaj email:</string>
+    <string name="Wygeneruj">wygeneruj</string>
+    <string name="WygenerujNoweHaslo">wygeneruj nowe hasło</string>
+    <string name="title_activity_activity__regulamin">Activity_Regulamin</string>
+    <string name="RegulaminTresc">tutaj dodam regulamin</string>
+    <string name="degraduj">degraduj</string>
+    <string name="awansuj">awansuj</string>
+    <string name="usun">usuń</string>
+    <string name="Wlacz_GPS">włącz GPS</string>
+    <string name="Wlacz">włącz</string>
+    <string name="Wyjdz">wyjdź</string>
+    <string name="Jestes_tutaj">jesteś tutaj</string>
+
+</resources>

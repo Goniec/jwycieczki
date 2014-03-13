@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cbOdbdlokujUsuwanieP"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/bZmienHasloP"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:onClick="onClickZmienHaslo"
+                android:text="Zmien haslo" />
+
+            <Button
+                android:id="@+id/ibOdblokujP"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:contentDescription="@string/Odblokuj"
+                android:onClick="onClickdblokoj"
+                android:text="Zmien dane" />
+
+            <ImageButton
+                android:id="@+id/ibBlokP"
+                android:layout_width="72dp"
+                android:layout_height="34dp"
+                android:onClick="onClickBlok"
+                android:src="@drawable/ic_action_new_account" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="95dp" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.55"
+                android:paddingTop="10dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="74dp"
+                        android:layout_height="wrap_content"
+                        android:text="Login:" />
+
+                    <TextView
+                        android:id="@+id/tvLoginP"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:text="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="74dp"
+                        android:layout_height="wrap_content"
+                        android:text="Imie:" />
+
+                    <TextView
+                        android:id="@+id/tvImieP"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:text="2" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="74dp"
+                        android:layout_height="wrap_content"
+                        android:text="Nazwisko:" />
+
+                    <TextView
+                        android:id="@+id/tvNazwiskoP"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:text="3" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvNazwaWycieczkiP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/bDodajWycieczkeP"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:onClick="onClickDodajWycieczke"
+                    android:text="Stworz wycieczke" />
+
+                <Button
+                    android:id="@+id/usunWycieczkeP"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:onClick="onClickUsunWycieczke"
+                    android:text="Usun wycieczke" />
+
+                <Button
+                    android:id="@+id/bWyslijWiadomoscP"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:onClick="onClickWyslijWiadomosc"
+                    android:text="Wyslij wiadomosc" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lvMojaWycieczkaP"
+            android:layout_width="wrap_content"
+            android:layout_height="218dp"
+            android:layout_weight="0.87" >
+
+        </ListView>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center" >
+
+        <TextView
+            android:id="@+id/tvSzukajWycieczkiU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Szukaj" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/etSzukajWycieczkiU"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10" >
+                <requestFocus />
+            </EditText>
+
+            <Button
+                android:id="@+id/bSzukajWycieczkiU"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Szukaj" 
+                android:onClick="onClickSzukaj"/>
+
+        </LinearLayout>
+        
+        <ListView
+            android:id="@+id/lvListaWycieczekU"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+</LinearLayout>

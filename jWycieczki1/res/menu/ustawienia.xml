@@ -1,0 +1,25 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@id/Zakoncz" 
+        android:orderInCategory="4" 
+        android:title="@string/Zakoncz">
+        
+    </item>
+    <item android:id="@+id/ZmienHaslo" 
+        android:orderInCategory="1" 
+        android:title="@string/Zmien_haslo">
+        
+    </item>
+    <item android:id="@+id/StGrupe" 
+        android:orderInCategory="2" 
+        android:title="@string/Zaloz_grupe">
+        
+    </item>
+    <item android:id="@+id/StWycieczke" 
+        android:title="@string/Organizuj_wycieczke" 
+        android:orderInCategory="3">
+        
+    </item>
+    
+
+</menu>

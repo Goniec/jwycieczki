@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="30dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tVRejestracjaR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:text="@string/Rejestracja"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/etLoginR"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/login" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/etHasloR"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:inputType="text|textPassword"
+            android:text="@string/haslo" />
+
+        <EditText
+            android:id="@+id/etPHasloR"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:text="@string/haslo" />
+
+        <EditText
+            android:id="@+id/etEmailR"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:inputType="textWebEmailAddress"
+            android:text="@string/email" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <CheckBox
+                android:id="@+id/cbAkceptujeR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.09"
+                android:text="@string/Akceptuje" />
+
+            <TextView
+                android:id="@+id/RegulaminR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.09"
+                android:text="@string/Regulamin"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:clickable="true"
+                android:onClick="onClick_Activity_Regulamin" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/AnulujR"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.43"
+                android:onClick="onClickAnuluj"
+                android:text="@string/Anuluj" />
+            	
+            <Button
+                android:id="@+id/RejestracjaR"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.42"
+                android:onClick="onClickZarejestruj"
+                android:text="@string/OK" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
